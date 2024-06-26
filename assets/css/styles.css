@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:azure;
+}
+
+header {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+
+.nav-bar{
+    flex-direction: row;
+}
+
+
+
+main {
+    display:flex;
+    flex-wrap:wrap;
+
+}
