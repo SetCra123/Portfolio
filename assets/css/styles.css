@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:azure;
+    background-color:antiquewhite;
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -37,14 +37,14 @@ header img {
     z-index: 1;
     position: relative;
     bottom: 83px;
-    min-height: 20px;
+    min-height: 40px;
     max-height: 70px;
 }
 
 .hero h2 {
     position:relative;
-    bottom: 130px;
-    left: 360px;
+    bottom: 120px;
+    left: 370px;
     z-index: 1;
 }
 
@@ -68,6 +68,7 @@ nav li {
 
 li:hover {
     background-color: cadetblue;
+    cursor: pointer;
 
 }
 
@@ -101,7 +102,7 @@ section {
     min-width: 600px;
     max-height: 400px;
     min-height: 300px;
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
     margin-top: 50px;
     flex-direction:row;
     z-index:2;
@@ -114,9 +115,9 @@ section {
 #big-proj img {
     display: flex;
     position: relative;
-    min-width: 700px;
+    min-width: 827px;
     width:100%;
-    height:90%;
+    height:100%;
     z-index: 2;
 
 }
@@ -125,11 +126,12 @@ section {
     display: flex;
     position: relative;
     z-index: 2;
-    right:400px;
+    right:500px;
     max-width: 100%;
-    min-height: 90px;
-    max-height: 90px;
+    min-height: 50px;
+    max-height: 50px;
     background-color: darkcyan;
+    text-align: center;
 }
 
 
@@ -137,7 +139,7 @@ section {
     display: flex;
     justify-self: start;
     position: relative;
-    left: 250px;
+    left: 245px;
     bottom: 650px;
     max-width: 70%;
     min-width: 500px;
@@ -153,7 +155,7 @@ section {
     max-height: 30%;
     min-height: 200px;
     width: 400px;
-    background-color:midnightblue;
+   /* background-color:midnightblue; */
     padding: 5px;
 }
 
@@ -181,10 +183,35 @@ section {
 }    
 
 #btml img {
-    width:50%;
-    height: 100%
+    width:100%;
+    height: 100%;
+    min-width: 400px;
 }
 
+#btml h3 {
+    position: relative;
+    z-index: 1;
+    right: 230px;
+    background-color: cadetblue;
+    min-height: 30px;
+    max-height: 30px;
+}
+
+
+#btmr img {
+    width: 100%;
+    height: 100%;
+    min-width: 400px;
+}
+
+#btmr h3 {
+    position: relative;
+    z-index: 1;
+    right: 230px;
+    background-color: cadetblue;
+    min-height: 50px;
+    max-height: 50px;
+}
 
 article {
     display:flex;
@@ -195,8 +222,16 @@ article {
 
 }
 
+article img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
 
-
+article img {
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+}
 
 
 aside {
@@ -210,8 +245,7 @@ aside {
 }
 
 aside h1 {
-    margin-right: 40px;
-    border-right: 5px;
+    border-right: 35px;
     border-color: cadetblue;
     padding: 70px;
     
@@ -227,11 +261,16 @@ footer {
     flex-direction: row;
     margin-left: 200px;
     position: relative;
-    bottom: 800px;
+    bottom: 900px;
 
 }
 
 footer h2 {
     padding: 60px;
     text-decoration:underline;
+}
+
+footer h2:hover {
+    cursor: pointer;
+    background-color: cadetblue;
 }
