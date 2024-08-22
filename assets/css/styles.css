@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 body {
     background-color:antiquewhite;
     font-family: "Bebas Neue", sans-serif;
@@ -239,7 +245,7 @@ aside {
     flex-direction: column;
     float: left;
     position: relative;
-    top: 150px;
+    top: 30px;
 
 
 }
@@ -255,6 +261,10 @@ aside h1:hover {
     background-color: cadetblue;
 }
 
+.contact {
+    position: relative;
+    top: 100px;
+}
 
 footer {
     display: flex;
